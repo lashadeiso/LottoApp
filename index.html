@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="src/script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <form id="form" class="form">
+          <div class="form-control">
+            <label>Full Name</label>
+            <input type="text" id="fullName" placeholder="Lasha deisadze" />
+            <div class="error_message">Error message</div>
+          </div>
+          <div class="form-control">
+            <label>Private Number</label>
+            <input
+              type="number"
+              id="privateNumber"
+              placeholder="60002122929"
+              maxlength="11"
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            />
+            <div class="error_message">Error message</div>
+          </div>
+          <div class="form-control">
+            <label>Lotto Number</label>
+            <input
+              type="text"
+              id="lottoNumber"
+              placeholder="10,12,7,23,45,23,18"
+              maxlength="20"
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            />
+            <div class="error_message">Error message</div>
+          </div>
+          <button class="btn">Register</button>
+        </form>
+        <div class="winner-numbers"></div>
+        <button class="check-winner">Check The Winner</button>
+        <div class="winner-user"></div>
+      </div>
+
+      <div class="section-tickets"></div>
+    </div>
+  </body>
+</html>
