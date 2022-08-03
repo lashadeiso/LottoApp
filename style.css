@@ -18,13 +18,13 @@ html {
   --primary-color: #009e6c;
   --border-color: #999;
   --font-color: rgb(61, 59, 59);
-  --placeholder-color: rgb(151, 144, 144);
+  --placeholder-color: rgb(222, 221, 221);
   --error-color: rgba(207, 16, 16, 0.653);
 }
 
 .container {
   max-width: 40rem;
-  max-height: 50rem;
+  max-height: 55rem;
   border: 0.1rem solid var(--border-color);
   margin: 1rem 1rem;
   padding: 4.5rem 4.5rem;
@@ -112,7 +112,7 @@ input::placeholder {
 .section-tickets {
   margin-top: 2rem;
   max-width: 100%;
-  max-height: 60vh;
+  max-height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
