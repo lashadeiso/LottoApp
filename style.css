@@ -220,7 +220,7 @@ input::placeholder {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 750px) {
   .container {
     max-width: 10rem;
     max-height: 20rem;
