@@ -245,12 +245,12 @@ input::placeholder {
   }
   .form-control input {
     width: 100%;
-    font-size: 1rem;
-    padding-left: 0.4rem;
+    font-size: 0.7rem;
+    padding: 0.3rem;
     border-radius: 0.4rem;
   }
   input::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .btn {
     height: 1.5rem;
@@ -272,6 +272,10 @@ input::placeholder {
   .winner-numbers p {
     font-size: 0.8rem;
     color: rgb(139, 134, 134);
+  }
+  .winner-user p {
+    font-size: 0.5rem;
+    color: goldenrod;
   }
   .check-winner {
     padding: 0.1rem 0.1rem;
