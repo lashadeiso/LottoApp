@@ -24,7 +24,7 @@ html {
 
 .container {
   max-width: 40rem;
-  max-height: 55rem;
+  max-height: 50rem;
   border: 0.1rem solid var(--border-color);
   margin: 1rem 1rem;
   padding: 4.5rem 4.5rem;
